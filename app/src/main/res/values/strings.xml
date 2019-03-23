@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Laboratorio3</string>
+    <string name="textET_username">Username</string>
+    <string name="textET_password">Password</string>
+    <string name="textET_email">Email</string>
+    <string name="textET_gender">Gender</string>
+    <string name="textET_send">Send</string>
+    <string name="the_message_is">The message is...</string>
+    <string name="text_share">Share!</string>
+</resources>

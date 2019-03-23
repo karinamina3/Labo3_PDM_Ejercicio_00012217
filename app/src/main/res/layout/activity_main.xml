@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textET_username"
+        android:textSize="24sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textET_password"
+        android:inputType="textPassword"
+        android:textSize="24sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textET_email"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/et_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/textET_gender"
+        android:textSize="24sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/textET_send"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:background="#90008477"
+        android:textColor="#ffff"/>
+
+</LinearLayout>
